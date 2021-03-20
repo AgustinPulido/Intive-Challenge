@@ -28,7 +28,7 @@ class App extends Component {
     var { items, loading } = this.state;
     if (!loading) {
       return (
-        <div > Loading... </div>
+        <div className="justify-content-center d-flex align-items-center "> Loading... </div>
       )
     } else {
       return (
