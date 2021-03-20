@@ -52,7 +52,7 @@ class App extends Component {
     }
   }
 
-  showData = (item, items) => {
+  showData = (item) => {
     ReactDOM.render(
       <React.StrictMode>
       <Header/>
