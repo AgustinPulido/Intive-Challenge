@@ -36,7 +36,7 @@ class App extends Component {
           <div className="row justify-content-center d-flex align-items-center" > {items.map(item => (<div className="col-lg-3 col-md-4 col-sm-6" >
             <div className="users" >
               <div className="avatar justify-content-center d-flex align-items-center" >
-                <img type="button" onClick={() => this.showData(item, items)} className="rounded-circle" src={item.picture.thumbnail} alt={item.name.first} />
+                <img type="button" onClick={() => this.showData(item)} className="rounded-circle" src={item.picture.thumbnail} alt={item.name.first} />
               </div>
               <div className="userInfo row justify-content-center d-flex text-center" >
                 <p>Name: {item.name.first} {item.name.last} </p>
